@@ -1,0 +1,79 @@
+{
+    "about": [
+        {
+            "id": 1,
+            "bio": "Co-founder & CEO at Terribly Tiny Tales",
+            "link": "http://www.instagram.com/anujgosalia",
+            "backgoundImage": "Images/background.jpeg",
+            "profileImage": "Images/propic.jpg",
+            "name": "Anuj Gosalia",
+            "followers": 6482,
+            "following": 245,
+            "badge1": "Images/diamond.png",
+            "badge2": "Images/check.png"
+        }
+    ],
+    "icons": [
+        {
+            "id": 1,
+            "icon": "Images/star.png",
+            "caption": "125"
+        },
+        {
+            "id": 2,
+            "icon": "Images/like.png",
+            "caption": "12"
+        },
+        {
+            "id": 3,
+            "icon": "Images/eye2.png",
+            "caption": "57.8K"
+        },
+        {
+            "id": 4,
+            "icon": "Images/heart.png",
+            "caption": "26.0K"
+        }
+    ],
+      
+    "postNumber" : [{
+                "id" : 1,
+                "postTimes": "134"
+            }], 
+        
+    "posts": [{
+                "id": 1,              
+                "postHeading": "A Changing World Order",
+                "icon": "Images/like.png",
+                "name": "AnujGosalia",
+                "postDesc": "The world is changing at a feverish pace. Friends, colleagues and everyone engaged in knowledge work are beginning to sense this, including ... \n\nLorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, autem et delectus, quibusdam ex, eaque aspernatur beatae consequatur accusamus earum cum? Iure dolores ipsa ut! Alias, culpa! Laudantium, omnis totam.",
+                "footerTitle": "musing",
+                "date": "August 2",
+                "time": "2 mins",
+                "view": "102"
+            },
+            {
+                "id": 2,
+                "postHeading": "Indian v/s Australia",
+                "icon": "Images/like.png",
+                "name": "AnujGosalia",
+                "postDesc": "Think about it - this cricket series was akin to therapy. Laying our childhood trauma up top, working with it slowly and surely over two m... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, autem et delectus, quibusdam ex, eaque aspernatur beatae consequatur accusamus earum cum? Iure dolores ipsa ut! Alias, culpa! Laudantium, omnis totam.",
+                "footerTitle": "thought",
+                "date": "January 21",
+                "time": "1 min",
+                "view": "156"
+            },
+            {
+                "id": 3,
+                "postHeading": "Write To Build",
+                "icon": "Images/like.png",
+                "name": "AnujGosalia",
+                "postDesc": "Writing is the first step to create: -stories -products -companies... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, autem et delectus, quibusdam ex, eaque aspernatur beatae consequatur accusamus earum cum? Iure dolores ipsa ut! Alias, culpa! Laudantium, omnis totam.",
+                "footerTitle": "musing",
+                "date": "November 18",
+                "time": "1 min",
+                "view": "228"
+            }]
+        
+      
+}
