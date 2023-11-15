@@ -38,14 +38,14 @@ const Posts = () => {
                         {elem.postHeading}
                       </h3>
                       <IconButton color="white">
-                        <img src={elem.icon} width={19} />
+                        <img src={elem.icon} width={19} alt=""/>
                       </IconButton>
                     </div>
                   </AccordionHeader>
                   <AccordionBody>
                     <div className="flex mt-5 ">
                       <a href="/">
-                        <span className=" line-clamp-5 lg:text-lg hover:bg-slate-100 font-normal">
+                        <span className=" line-clamp-3 lg:text-lg hover:bg-slate-100 font-normal">
                           {elem.postDesc}
                         </span>
                       </a>

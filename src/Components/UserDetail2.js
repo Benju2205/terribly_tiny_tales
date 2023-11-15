@@ -2,7 +2,7 @@ import React from "react";
 import profileData from "../profileData.json";
 import { IconButton } from "@material-tailwind/react";
 
-const Profilemain2 = () => {
+const UserDetail2 = () => {
   return (
     <>
       <div className="flex xsm:flex-col mb-5 ">
@@ -64,4 +64,4 @@ const Profilemain2 = () => {
   );
 };
 
-export default Profilemain2;
+export default UserDetail2;

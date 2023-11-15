@@ -1,70 +1,82 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Profile Screen
+A profile screen created using ReactJS for the task of Terribly Tiny Tales.
 
-## Available Scripts
+### Weblink: [Live Website](https://benju2205-ttt.onrender.com)
+## Some Images:
+<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/08f134c6-0424-4200-939e-5d8c4fe80d39"/>
+<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/2a2a55db-d8f6-498d-8c78-4f657f700864"/>
+<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/058a8cce-b216-488c-9c48-b43c360a0f52"/>
+<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/38bfe1d5-2741-40d8-ad2a-97396de46141"/>
 
-In the project directory, you can run:
 
-### `npm start`
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies/Libraries Used](#technologies-used)
+- [Components](#components)
+- [Plugins/dependencies](#usage)
+- [Installation](#installation)
+- [Contributing](#contributing)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Introduction
+This app is created for the task given by Terribly Tiny Tales for the recruitment process for the role of Frontend Developer intern.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+- **Responsive Design**: The profile screen adapts seamlessly to various screen sizes, ensuring a consistent and user-friendly experience across devices.
+- **Profile Information Display**: Displays user profile details such as name, bio, profile picture, etc., in an organized and visually appealing layout
+- **Tailwind CSS Integration**: Utilizes Tailwind CSS for efficient and customizable styling, leveraging utility classes for rapid UI development.
+- **Material Design Components**: Integrates Material-Tailwind, providing Material Design components that enhance the visual appeal and usability of the profile screen.
 
-### `npm test`
+## Technologies/Libraries Used
+- **React.js**: A JavaScript library for building user interfaces.
+- **HTML5 & CSS3**: Markup and styling languages for building web pages.
+- **JavaScript**: A programming language for adding interactivity to web applications.
+- **Git**: A version control system for tracking changes and collaborating on projects.
+- **Tailwind CSS**: A utility-first CSS framework used for styling components and creating a responsive design.
+- **Material-Tailwind**: A UI kit built on top of Tailwind CSS that provides Material Design components and styles.
+- **Render.com**: A platform for hosting and deploying web applications.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Components
+- **Header**: The Header component in this project serves as the top navigation bar.
+    - *Logo Link*: Utilizes a Link component from react-router-dom to create a clickable logo that redirects users to the home page ("/").
 
-### `npm run build`
+    - *Navigation Elements*: Displays navigation elements such as "STORIES" and "Courses" using semantic HTML tags and Tailwind CSS classes for styling.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Background**: The Background component in this project is responsible for rendering a background image based on data fetched from the profileData.json file.
+    - *Dynamic Background*: Utilizes data from the profileData.json file to dynamically render background images.
+- **UserDetail1**: The 'UserDetail1' component is responsible for rendering user details based on data fetched from the profileData.json file. It constructs the layout for a user profile, displaying information such as the user's name, badges, followers, and following count. This component is used to construct the layout for displaying user information within the application.
+    - *Dynamic User Information*: Utilizes data from the profileData.json file to dynamically render user details, including profile image, name, badges, followers, and following count.
+- **UserDetail2**: The UserDetail2 component complements the user profile information by displaying additional details like the user's bio, links, and associated icons based on data fetched from the profileData.json file. This component is integrated into the user profile view, specifically handling the rendering of the user's bio, links, and associated icons.
+    - *Dynamic User Information Display*: Renders user bio and links dynamically from the provided profileData.json file.
+- **PostsNumber**: The PostsNumber component is responsible for displaying the number of posts made by the user, utilizing data fetched from the profileData.json file. This component is integrated into the user profile view to showcase the total count of posts made by the user.
+    - *Dynamic Post Count Display*: Renders the number of posts dynamically from the provided profileData.json file.
+- **Posts**: The Posts component is responsible for displaying a list of posts fetched from the profileData.json file. It utilizes the Accordion component from Material Tailwind React to create collapsible sections for each post.
+    - *Dynamic Post Display*: Renders a list of posts dynamically from the provided profileData.json file.
+    - *Collapsible Post Sections*: Utilizes the Accordion component to allow users to expand and collapse individual post sections for easy navigation.
+- **Footer**: The 'Footer' component is responsible for displaying footer details associated with individual posts, such as the post's title, author, publication date, time, and view count. This component is utilized within the posts section to provide additional information about each post.
+    - *Dynamic Footer Display*: Renders footer details dynamically, utilizing data from the profileData.json file.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Plugins/dependencies
+- **@material-tailwind/react@2.1.4**: Library for Material Design components built on Tailwind CSS.
+- **tailwindcss@3.3.5**: Utility-first CSS framework for styling.
+- **prettier-plugin-tailwindcss@0.5.7**: Prettier plugin for formatting Tailwind CSS.
+- **react-dom@18.2.0**: React package for DOM rendering.
+- **react-router-dom@6.18.0**: React bindings for routing.
+- **react@18.2.0**: Core React library.
+- **react-scripts@5.0.1**: React scripts for development.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
+To run this portfolio locally, follow these steps:
 
-### `npm run eject`
+1. Clone the repository: `git clone https://github.com/Benju2205/New-Portfolio.git`
+2. Navigate to the project directory: `cd profile-screen`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit: `http://localhost:3000`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Feedback and Contributions
+- If you have any feedback, suggestions, or bug reports, please create an issue in the repository.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Contributions are welcome! If you'd like to contribute to this project, fork the repository, make your changes, and submit a pull request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

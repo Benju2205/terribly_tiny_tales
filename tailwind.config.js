@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        xsm: { max: "300px" },
+        xsm: { max: "279px" },
       },
       letterSpacing: {
         "widest-plus": "0.3em",
