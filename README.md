@@ -4,10 +4,12 @@ A profile screen created using ReactJS for the task of Terribly Tiny Tales.
 
 ### Weblink: [Live Website](https://benju2205-ttt.onrender.com)
 ## Some Images:
-<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/08f134c6-0424-4200-939e-5d8c4fe80d39"/>
-<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/2a2a55db-d8f6-498d-8c78-4f657f700864"/>
-<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/058a8cce-b216-488c-9c48-b43c360a0f52"/>
-<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/38bfe1d5-2741-40d8-ad2a-97396de46141"/>
+<div style="display: flex;">
+<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/08f134c6-0424-4200-939e-5d8c4fe80d39" style="width: 450px; height: 300px; object-fit: cover; margin-right: 10px;"/>
+<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/2a2a55db-d8f6-498d-8c78-4f657f700864" style="width: 450px; height: 300px; object-fit: cover; margin-right: 10px;"/>
+<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/058a8cce-b216-488c-9c48-b43c360a0f52" style="width: 450px; height: 300px; object-fit: cover; margin-right: 10px;"/>
+<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/38bfe1d5-2741-40d8-ad2a-97396de46141" style="width: 450px; height: 300px; object-fit: cover; margin-right: 10px;"/>
+</div>
 
 
 ## Table of Contents
@@ -17,7 +19,7 @@ A profile screen created using ReactJS for the task of Terribly Tiny Tales.
 - [Components](#components)
 - [Plugins/dependencies](#usage)
 - [Installation](#installation)
-- [Contributing](#contributing)
+- [Feedback and Contributions](#contributions)
 
 ## Introduction
 This app is created for the task given by Terribly Tiny Tales for the recruitment process for the role of Frontend Developer intern.
@@ -35,7 +37,7 @@ This app is created for the task given by Terribly Tiny Tales for the recruitmen
 - **Git**: A version control system for tracking changes and collaborating on projects.
 - **Tailwind CSS**: A utility-first CSS framework used for styling components and creating a responsive design.
 - **Material-Tailwind**: A UI kit built on top of Tailwind CSS that provides Material Design components and styles.
-- **Render.com**: A platform for hosting and deploying web applications.
+- **Render.com**: This app is deployed and hosted in render.com. A platform for hosting and deploying web applications. 
 
 ## Components
 - **Header**: The Header component in this project serves as the top navigation bar.
