@@ -27,14 +27,14 @@ const Posts = () => {
         profileData.posts.map((elem, index) => {
           return (
             <>
-              <div className="flex-row items-center justify-center xsm:flex-col mt-10 px-5">
+              <div className="flex-row items-center justify-center xsm:flex-col mt-10 px-5 md:px-10 lg:px-14">
                 <Accordion open={openAccordions[index]} icon="">
                   <AccordionHeader
                     onClick={() => handleOpen(index)}
                     className="hover:bg-slate-100"
                   >
                     <div className="w-full flex items-center justify-between">
-                      <h3 className=" font-extrabold text-md lg:text-lg ">
+                      <h3 className=" font-extrabold text-md lg:text-xl ">
                         {elem.postHeading}
                       </h3>
                       <IconButton color="white">
@@ -53,6 +53,7 @@ const Posts = () => {
                   </AccordionBody>
                 </Accordion>
               </div>
+
               <Footer
                 footerTitle={elem.footerTitle}
                 name={elem.name}

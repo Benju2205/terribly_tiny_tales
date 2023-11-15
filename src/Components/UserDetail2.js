@@ -35,16 +35,16 @@ const Profilemain2 = () => {
               profileData.icons.map((elem) => {
                 return (
                   <>
-                    <div className="flex mt-1">
-                      <div className="flex gap-4 w-auto xsm:flex-col">
-                        <div className="flex items-center justify-start gap-1">
-                          <div className="flex gap-4">
-                            <IconButton color="white">
+                    <div className="flex mt-1 ">
+                      <div className="flex w-auto xsm:flex-col ">
+                        <div className="flex items-center justify-start gap-1 lg:mr-3">
+                          <div className="flex items-start justify-start">
+                            <IconButton color="white" className="w-auto">
                               <img
                                 key={elem.id}
                                 src={elem.icon}
                                 alt="img"
-                                width={26}
+                                width={23}
                               />
                             </IconButton>
                           </div>

@@ -10,7 +10,7 @@ const PostsNumber = () => {
           return (
             <>
               <div className="flex mt-7">
-                <div className=" px-5 py-2 border-r-2 border-t-2 border-slate-200">
+                <div className=" px-5 py-2 border-r-2 border-t-2 border-slate-200 md:px-10 lg:px-14">
                   <span className=" text-sky-400 font-bold lg:text-lg">
                     {elem.postTimes} Posts
                   </span>

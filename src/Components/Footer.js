@@ -4,7 +4,7 @@ import profileData from "../profileData.json";
 const Footer = (props) => {
   return (
     <>
-      <div className="flex xsm:flex-col items-center justify-between mt-10 px-5 pb-7 border-b-2 border-slate-200">
+      <div className="flex xsm:flex-col items-center justify-between mt-10 px-5 pb-7 border-b-2 border-slate-200  md:px-10 lg:px-14">
         <div>
           <span className="text-sky-400 text-sm font-semibold">
             {props.footerTitle}{" "}

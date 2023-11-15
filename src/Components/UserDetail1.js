@@ -11,7 +11,7 @@ const UserDetail1 = () => {
         profileData.about.map((elem) => {
           return (
             <>
-              <div className="h-auto flex">
+              <div className="h-auto flex lg:px-14">
                 <div className=" container mx-auto text-black  ">
                   <div className=" flex items-start justify-start xsm:flex-col">
                     <a href="/">

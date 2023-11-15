@@ -10,7 +10,7 @@ const Background = () => {
             return (
               <>
                 <img
-                  className="h-48 sm:h-56 md:h-72 lg:h-80 xl:h-96 w-full rounded-lg object-cover object-center"
+                  className="h-48 sm:h-56 md:h-72 lg:h-80 xl:h-96 w-full object-cover object-center"
                   src={elem.backgoundImage}
                   alt="nature image"
                 />
