@@ -6,7 +6,7 @@ A profile screen created using ReactJS for the task of Terribly Tiny Tales.
 ## Some Images:
 <div style="display: flex;">
 <img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/08f134c6-0424-4200-939e-5d8c4fe80d39" style="width: 300px; height: 450px; object-fit: cover; margin-right: 10px;"/>
-<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/2a2a55db-d8f6-498d-8c78-4f657f700864" style="width: 330px; height: 450px; object-fit: cover; margin-right: 10px;"/>
+<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/2a2a55db-d8f6-498d-8c78-4f657f700864" style="width: 400px; height: 450px; object-fit: cover; margin-right: 10px;"/>
 <img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/058a8cce-b216-488c-9c48-b43c360a0f52" style="width: 450px; height: 300px; object-fit: cover; margin-right: 10px;"/>
 <img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/38bfe1d5-2741-40d8-ad2a-97396de46141" style="width: 450px; height: 300px; object-fit: cover; margin-right: 10px;"/>
 </div>
