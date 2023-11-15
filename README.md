@@ -40,23 +40,25 @@ This app is created for the task given by Terribly Tiny Tales for the recruitmen
 - **Render.com**: This app is deployed and hosted in render.com. A platform for hosting and deploying web applications. 
 
 ## Components
-- **Header**: The Header component in this project serves as the top navigation bar.
-    - *Logo Link*: Utilizes a Link component from react-router-dom to create a clickable logo that redirects users to the home page ("/").
-
+- **Header**: The `Header` component in this project serves as the top navigation bar.
     - *Navigation Elements*: Displays navigation elements such as "STORIES" and "Courses" using semantic HTML tags and Tailwind CSS classes for styling.
+    - *Logo Link*: Utilizes a Link component from react-router-dom to create a clickable logo that redirects users to the home page ("/").
+    - *Courses Button*: Utilizes the `Button` component from Material Tailwind (`@material-tailwind/react`) to create a call-to-action button for accessing courses.
 
-- **Background**: The Background component in this project is responsible for rendering a background image based on data fetched from the profileData.json file.
+
+- **Background**: The `Background` component in this project is responsible for rendering a background image based on data fetched from the profileData.json file.
     - *Dynamic Background*: Utilizes data from the profileData.json file to dynamically render background images.
-- **UserDetail1**: The 'UserDetail1' component is responsible for rendering user details based on data fetched from the profileData.json file. It constructs the layout for a user profile, displaying information such as the user's name, badges, followers, and following count. This component is used to construct the layout for displaying user information within the application.
+- **UserDetail1**: The `UserDetail1` component is responsible for rendering user details based on data fetched from the profileData.json file. It constructs the layout for a user profile, displaying information such as the user's name, badges, followers, and following count. This component is used to construct the layout for displaying user information within the application.
     - *Dynamic User Information*: Utilizes data from the profileData.json file to dynamically render user details, including profile image, name, badges, followers, and following count.
-- **UserDetail2**: The UserDetail2 component complements the user profile information by displaying additional details like the user's bio, links, and associated icons based on data fetched from the profileData.json file. This component is integrated into the user profile view, specifically handling the rendering of the user's bio, links, and associated icons.
+    - *Chip Component*: Utilizes the `Chip` component from Material Tailwind (`@material-tailwind/react`) to display follower and following counts in a stylized manner.
+- **UserDetail2**: The `UserDetail2` component complements the user profile information by displaying additional details like the user's bio, links, and associated icons based on data fetched from the profileData.json file. This component is integrated into the user profile view, specifically handling the rendering of the user's bio, links, and associated icons.
     - *Dynamic User Information Display*: Renders user bio and links dynamically from the provided profileData.json file.
-- **PostsNumber**: The PostsNumber component is responsible for displaying the number of posts made by the user, utilizing data fetched from the profileData.json file. This component is integrated into the user profile view to showcase the total count of posts made by the user.
+- **PostsNumber**: The `PostsNumber` component is responsible for displaying the number of posts made by the user, utilizing data fetched from the profileData.json file. This component is integrated into the user profile view to showcase the total count of posts made by the user.
     - *Dynamic Post Count Display*: Renders the number of posts dynamically from the provided profileData.json file.
-- **Posts**: The Posts component is responsible for displaying a list of posts fetched from the profileData.json file. It utilizes the Accordion component from Material Tailwind React to create collapsible sections for each post.
+- **Posts**: The `Posts` component is responsible for displaying a list of posts fetched from the profileData.json file. It utilizes the Accordion component from Material Tailwind React to create collapsible sections for each post.
     - *Dynamic Post Display*: Renders a list of posts dynamically from the provided profileData.json file.
     - *Collapsible Post Sections*: Utilizes the Accordion component to allow users to expand and collapse individual post sections for easy navigation.
-- **Footer**: The 'Footer' component is responsible for displaying footer details associated with individual posts, such as the post's title, author, publication date, time, and view count. This component is utilized within the posts section to provide additional information about each post.
+- **Footer**: The `Footer` component is responsible for displaying footer details associated with individual posts, such as the post's title, author, publication date, time, and view count. This component is utilized within the posts section to provide additional information about each post.
     - *Dynamic Footer Display*: Renders footer details dynamically, utilizing data from the profileData.json file.
 
 ## Plugins/dependencies
