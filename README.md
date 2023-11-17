@@ -38,6 +38,10 @@ This app is created for the task given by Terribly Tiny Tales for the recruitmen
 - **Tailwind CSS**: A utility-first CSS framework used for styling components and creating a responsive design.
 - **Material-Tailwind**: A UI kit built on top of Tailwind CSS that provides Material Design components and styles.
 - **Render.com**: This app is deployed and hosted in render.com. A platform for hosting and deploying web applications. 
+- **tailwind.config.js**: The `tailwind.config.js` file contains the Tailwind CSS configuration for this project, including various modifications and customizations to the default Tailwind settings to better suit the project's needs.
+  - **Theme Extension**: Includes additional screen breakpoints and custom letter spacing to enhance responsive design and typography.
+    - *Screens Extension*: Adds an additional screen breakpoint named xsm with a maximum width of 279px. This breakpoint can be used in responsive designs to target smaller viewports.
+    - *Letter Spacing Extension*: Defines a custom letter spacing named "widest-plus" with a value of "0.3em". This can be applied to text elements to achieve a specific letter spacing effect.
 
 ## Components
 - **Header**: The `Header` component in this project serves as the top navigation bar.
