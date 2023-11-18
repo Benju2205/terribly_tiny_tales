@@ -4,6 +4,7 @@ import profileData from "../profileData.json";
 import { Chip } from "@material-tailwind/react";
 
 const UserDetail1 = () => {
+  
   return (
     <>
       {profileData &&
@@ -42,7 +43,7 @@ const UserDetail1 = () => {
                           <Chip
                             variant="outlined"
                             value={elem.followers}
-                            className="text-sm font-bold text-slate-500 lg:text-base border-2 border-slate-400 px-2 py-0.5 w-16 "
+                            className="text-sm font-bold rounded-md text-slate-500 lg:text-base border-2 border-slate-400 px-2 py-0.5 w-16 "
                           />
                           <p className="text-xs font-light text-slate-500 text-center lg:text-sm">
                             Followers
@@ -52,7 +53,7 @@ const UserDetail1 = () => {
                           <Chip
                             variant="outlined"
                             value={elem.following}
-                            className="text-sm font-bold text-slate-500 lg:text-base border-2 border-slate-400 px-2 py-0.5 w-16 "
+                            className="text-sm font-bold rounded-md text-slate-500 lg:text-base border-2 border-slate-400 px-2 py-0.5 w-16 "
                           />
                           <p className="text-xs font-light text-slate-500 text-center lg:text-sm">
                             Following
