@@ -5,11 +5,11 @@ const Footer = (props) => {
   return (
     <>
       <div className="flex xsm:flex-col items-center justify-between mt-10 px-5 pb-7 border-b-2 border-slate-200  md:px-10 lg:px-14">
-        <div>
-          <span className="text-sky-400 text-sm font-semibold">
+        <div className="text-xs">
+          <span className="text-sky-400  font-semibold">
             {props.footerTitle}{" "}
           </span>
-          <span className="text-sm font-semibold">
+          <span className=" font-semibold">
             by {props.name.toLowerCase()}
           </span>
         </div>
